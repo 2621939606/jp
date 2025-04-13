@@ -1,0 +1,341 @@
+.demo_root {
+    width: 100rem;
+    background-color: #f0f8f5;
+}
+
+
+.root_head {
+    width: 90rem;
+    height: 8.4rem;
+    border: 2px solid #bec3c1;
+    border-radius: 8px;
+}
+
+.root_head div {
+    float: left;
+    margin: 0.8rem 0 0 0.5rem;
+}
+
+.root_head div * {
+    border-radius: 5px;
+}
+
+.head_left {
+    width: 44rem;
+    display: grid;
+    grid-template-columns: 14rem 26.5rem 3rem;
+    grid-template-rows: repeat(2, 2.7rem);
+    column-gap: 2px;
+    row-gap: 8px;
+}
+
+.head_right {
+    width: 44rem;
+    display: grid;
+    grid-template-columns: 13rem 2.3rem 2.3rem 23.4rem 3rem;
+    grid-template-rows: repeat(2, 2.7rem);
+    column-gap: 2px;
+    row-gap: 8px;
+}
+
+.root_head div select {
+    border: 2px solid #acafad;
+    font-size: 1rem;
+}
+
+.head_left input {
+    border: 2px solid #acafad;
+    background-color: #e0e0e0;
+    font-size: 1rem;
+}
+
+.head_left button {
+    height: 2rem;
+    font-size: 1rem;
+    border: 2px solid #bec3c1;
+    /* 单个单元格元素居中 */
+    align-self: center;
+}
+
+.head_right input {
+    font-size: 1rem;
+    border: 2px solid #acafad;
+    font-size: 1rem;
+}
+
+.head_right .lt {
+    height: 2.7rem;
+    font-weight: bold;
+    border: 2px solid #bec3c1;
+    /* 单个单元格元素居中 */
+    align-self: center;
+}
+
+.head_right .gt {
+    width: 3rem;
+    height: 2.7rem;
+    font-weight: bold;
+    border: 2px solid #bec3c1;
+    /* 单个单元格元素居中 */
+    align-self: center;
+    grid-column-start: 3;
+    grid-column-end: 6;
+}
+
+.head_right .guluubuID {
+    grid-row: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.head_right .guluubuID_content {
+    grid-row: 2;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    background-color: #e0e0e0;
+}
+
+.head_right .yiLan {
+    height: 2rem;
+    font-size: 1rem;
+    border: 2px solid #bec3c1;
+    /* 单个单元格元素居中 */
+    align-self: center;
+    grid-row: 2;
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
+
+
+.root_body {
+    width: 100rem;
+    height: 70rem;
+    margin-top: 0.5rem;
+    display: grid;
+    grid-template-columns: 16rem 76rem 6rem;
+    grid-template-rows: 100%;
+    column-gap: 0.6rem;
+}
+
+.root_body>div {
+    border: 2px solid #bec3c1;
+    border-radius: 8px;
+}
+
+.body_left_top {
+    width: 10.4rem;
+    margin: 0px auto;
+    margin-top: 0.9rem;
+    display: grid;
+    grid-template-columns: repeat(5, 2rem);
+    grid-template-rows: repeat(2, 2rem);
+    column-gap: 0.1rem;
+}
+
+.body_left_top div {
+    text-align: center;
+    border: 1px solid #acafad;
+    border-radius: 5px;
+    background-color: #ebecef;
+}
+
+.body_left_bottom {
+    width: 14rem;
+    margin: 0.3rem 0rem 0rem 0.5rem;
+}
+
+.body_left_bottom .shiMing {
+    width: 100%;
+    height: 1.6rem;
+    background-color: #3da388;
+}
+
+.body_left_bottom .shiMing span {
+    width: 90%;
+    height: 100%;
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+    margin-left: 10%;
+    display: block;
+    border-left: 2px solid #f0f8f5;
+}
+
+.body_left_bottom .allS_D {
+    width: 100%;
+    margin: 0.5rem 0 0.2rem 0;
+    vertical-align: middle;
+    /* 复选框与文本对齐 */
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 4px;
+}
+
+.body_left_bottom .allS_D input {
+    zoom: 130%;
+    margin: 0;
+}
+
+.body_cent div {
+    border: 2px solid #bec3c1;
+    border-radius: 8px;
+    float: left;
+}
+
+.cent_top1 {
+    width: 23.2rem;
+    height: 4rem;
+    margin: 0.6rem 0 0.5rem 0.5rem;
+    padding: 1rem 0 0 0.5rem;
+    display: grid;
+    grid-template-columns: 14rem 2.7rem 2.7rem 3rem;
+    grid-template-rows: 2.6rem;
+    align-items: end;
+    column-gap: 0.1rem;
+}
+
+.cent_top1 * {
+    box-sizing: border-box;
+    height: 100%;
+    font-size: 1.3rem;
+    border: 2px solid #acafad;
+    border-radius: 4px;
+}
+
+.cent_top1 button {
+    border: 2px solid #bec3c1;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.cent_top1 button:nth-child(4) {
+    font-weight: inherit;
+    height: 2rem;
+    align-items: end;
+}
+
+.cent_cent {
+    border: none;
+}
+
+
+.body_right {
+    padding: 0.8rem 0 0 0.7rem;
+    display: grid;
+    grid-template-columns: 4.4rem;
+    grid-template-rows: repeat(20, 2rem);
+    align-items: center;
+}
+
+.body_right button {
+    height: 2rem;
+    border: 1px solid #d0d1cf;
+    border-radius: 5px;
+}
+
+.body_right button:nth-child(2) {
+    font-size: 0.6rem;
+    grid-row: 15;
+}
+
+.cent_top2 {
+    width: 14rem;
+    height: 2.8rem;
+    margin: 1.2rem 0 0.5rem 0.5rem;
+    padding: 1rem 0.5rem 0 0.5rem;
+    display: grid;
+    grid-template-columns: 4rem 5.6rem 4rem;
+    grid-template-rows: 2rem;
+    column-gap: 0.1rem;
+
+}
+
+.cent_top2 button {
+    border: 1px solid #bbbbbb;
+    background-color: #e0e0e1;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #3c3c3c;
+}
+
+.body_cent_yiLin {
+    height: 2rem;
+    font-size: 1rem;
+    border: 2px solid #d8d8d8;
+    border-radius: 7px;
+    margin: 2.6rem 0 0 0.5rem;
+}
+
+.body_cent .cent_cent {
+    width: 73.4rem;
+    border: none;
+    border-radius: 0;
+    margin: 0 0 0 0.6rem;
+    display: grid;
+    grid-template-columns: 2rem 12.3rem 8.8rem repeat(4, 12.3rem);
+    grid-template-rows: 2rem;
+    column-gap: 0.1rem;
+}
+
+.body_cent .cent_cent div:nth-child(1) input {
+    zoom: 150%;
+    margin: 0.3rem 0 0 0;
+    background-color: #3da388;
+}
+
+.body_cent .cent_cent div {
+    font-weight: bold;
+    border: none;
+    border-radius: 0;
+    background-color: #3da388;
+    color: white;
+    line-height: 2rem;
+    text-align: center;
+}
+
+
+
+.root_foot {
+    width: 100.2rem;
+    /* background-color: #f0f8f5; */
+    /* padding-bottom: 3px; */
+    position: fixed;
+    /* left: 5px; */
+    bottom: 3px;
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(12, 6.5rem);
+    grid-template-rows: repeat(1, 1.8rem);
+    column-gap: 2px;
+}
+
+.root_foot button {
+    color: #636162;
+    font-weight: bolder;
+    background-color: #ececec;
+    border: 2px solid #dfdfdd;
+    border-radius: 8px;
+}
+
+.root_foot button:nth-child(4) {
+    color: #b0b0b0;
+}
+
+.root_foot button:nth-child(12) {
+    font-stretch: condensed;
+}
+
+
+button {
+    transition: background-color 0.1s ease;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: #ccc;
+}
+
+.body_left_top div:active{
+    background-color: #ccc;
+}
